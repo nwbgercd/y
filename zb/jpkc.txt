@@ -18,8 +18,10 @@ pigoo,http://s.mrw.so/7DlBI
 极限台,http://suo.im/aD7Ry
 极限台,http://suo.im/aD7Ry
 
+台湾成人台,#genre#
 松3,http://play-cdn-226.jr365m.cc/live/c6f934fa012d05f781e7781059bb7df3.m3u8
 极限台,http://play-cdn-226.jr365m.cc/live/f87615a283683c40ac132f31792b4d17.m3u8
+
 樱花台欧美版,http://live.redtraffic.xyz:80/russian.m3u8
 一本道欧美版,http://live.redtraffic.xyz:80/bigass.m3u8
 松视1欧美版,http://live.redtraffic.xyz:80/fetish.m3u8
@@ -6989,5 +6991,6 @@ vip02wuma,p3p://108.181.32.169:57987/648527860005a2bce275369f096d68b2
 松视叁台,p9p://108.181.32.169:57987/650b8a0e000007df8f1b27da75d42f65
 香蕉频道,p9p://108.181.32.169:57987/650b8ae60005f36b8f1e751f68bd1c14
 凤凰中文,p3p://108.181.32.169:57987/6410229e000655dd98612e41401e3e7d
+
 
 

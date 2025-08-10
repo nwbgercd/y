@@ -21,6 +21,24 @@
             "filterable": 1
         },
         {
+            "key": "Missav",
+            "name": "🔞Missav",
+            "type": 3,
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "api": "./py/Miss.py",
+            "ext": {
+                "site": "https://missav.ai",
+                "cfgo": "./lib/cf-proxy-linux-arm64",
+                "plp": "",
+                "proxy": {
+                    "http": "http://127.0.0.1:10172",
+                    "https": "http://127.0.0.1:10172"
+                }
+            }
+        },
+        {
             "key": "911爆料网",
             "name": "🔞911爆料网",
             "type": 3,

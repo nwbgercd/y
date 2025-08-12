@@ -21,6 +21,15 @@
             "filterable": 1
         },
         {
+            "key": "py_stripchat",
+            "name": "🔞py_stripchat",
+            "type": 3,
+            "api": "./py/py_stripchat.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "Missav",
             "name": "🔞Missav",
             "type": 3,
@@ -149,14 +158,6 @@
             "api": "csp_XBPQ",
             "jar": "./jar/XBPQ.jar",
             "ext": "./json/NOWAV.json"
-        },
-        {
-            "key": "JAVSB",
-            "name": "🔞JAVSB（翻）",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/JAVSB.json"
         },
         {
             "key": "bika",
@@ -1599,7 +1600,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./lib/农夫与少妇.json"
+            "ext": "./json/农夫与少妇.json"
         },
         {
             "key": "airav",

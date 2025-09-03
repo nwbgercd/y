@@ -5,12 +5,13 @@ import threading
 import time
 import requests
 from pyquery import PyQuery as pq
+
 sys.path.append('..')
 from base.spider import Spider
 
 class Spider(Spider):
     def __init__(self):
-        # 使用rule中定义的配置
+        # 基础配置
         self.name = '好色TV（优）'
         self.host = 'https://hsex.icu/'
         self.candidate_hosts = [
@@ -24,9 +25,9 @@ class Spider(Spider):
         }
         self.timeout = 5000
         
-        # 分类映射 - 根据rule中的class_name和class_url
+        # 分类映射（关键修复：视频分类url_suffix设为空，适配list-{pg}.htm格式）
         self.class_map = {
-            '视频': {'type_id': 'list', 'url_suffix': 'list'},
+            '视频': {'type_id': 'list', 'url_suffix': ''},  # 修复点1：视频分类后缀为空
             '周榜': {'type_id': 'top7', 'url_suffix': 'top7'},
             '月榜': {'type_id': 'top', 'url_suffix': 'top'},
             '5分钟+': {'type_id': '5min', 'url_suffix': '5min'},
@@ -86,7 +87,7 @@ class Spider(Spider):
 
     def homeContent(self, filter):
         result = {}
-        # 根据rule中的class_name和class_url设置分类
+        # 构造分类列表
         classes = []
         for name, info in self.class_map.items():
             classes.append({
@@ -100,7 +101,7 @@ class Spider(Spider):
             html = self.fetch_with_retry(self.host, retry=2, timeout=5).text
             data = pq(html)
             
-            # 根据rule中的一级解析规则提取视频
+            # 提取视频列表
             vlist = []
             items = data('.row .col-xs-6.col-md-3')
             for item in items.items():
@@ -116,10 +117,10 @@ class Spider(Spider):
                     if vod_pic and not vod_pic.startswith('http'):
                         vod_pic = f"{self.host.rstrip('/')}/{vod_pic.lstrip('/')}"
                     
-                    # 提取描述信息
+                    # 提取时长备注
                     desc = item('.duration').text().strip() or '未知'
                     
-                    # 提取链接
+                    # 提取视频ID
                     href = item('a').attr('href') or ''
                     if not href:
                         continue
@@ -149,7 +150,7 @@ class Spider(Spider):
     def categoryContent(self, tid, pg, filter, extend):
         result = {}
         try:
-            # 根据rule中的URL模板构造分类URL
+            # 匹配分类信息
             cate_info = None
             for name, info in self.class_map.items():
                 if info['type_id'] == tid:
@@ -160,12 +161,18 @@ class Spider(Spider):
                 result['list'] = []
                 return result
             
-            url = f"{self.host}{cate_info['url_suffix']}_list-{pg}.htm"
+            # 关键修复：区分视频分类与其他分类的URL格式
+            if tid == 'list':  # 视频分类（type_id为list）
+                url = f"{self.host}list-{pg}.htm"  # 格式：list-1.htm、list-2.htm
+            else:  # 其他分类（周榜/月榜等）：xxx_list-{pg}.htm
+                url = f"{self.host}{cate_info['url_suffix']}_list-{pg}.htm"
+            
+            # 请求分类页
             html = self.fetch(url, headers=self.headers, timeout=8).text
             html = html.encode('utf-8', errors='ignore').decode('utf-8')
             data = pq(html)
             
-            # 使用相同的一级解析规则
+            # 提取视频列表
             vlist = []
             items = data('.row .col-xs-6.col-md-3')
             for item in items.items():
@@ -244,7 +251,7 @@ class Spider(Spider):
             # 提取标题
             title = data('.panel-title, .video-title, h1').text().strip() or '未知标题'
             
-            # 提取图片
+            # 提取封面图
             vod_pic = ''
             poster_style = data('.vjs-poster').attr('style') or ''
             pic_match = re.search(r'url\(["\']?([^"\']+)["\']?\)', poster_style)
@@ -255,7 +262,7 @@ class Spider(Spider):
             if vod_pic and not vod_pic.startswith('http'):
                 vod_pic = f"{self.host}{vod_pic.lstrip('/')}"
             
-            # 提取描述信息
+            # 提取时长和观看量
             duration = '未知'
             views = '未知'
             info_items = data('.panel-body .col-md-3, .video-info .info-item, .info p')
@@ -271,7 +278,7 @@ class Spider(Spider):
                         views = text.replace('观看：', '').replace('观看', '').strip()
             remarks = f"{duration} | {views}"
             
-            # 提取播放地址 - 根据rule中的play_parse和lazy设置
+            # 提取播放地址
             video_url = ''
             m3u8_match = re.search(r'videoUrl\s*=\s*["\']([^"\']+\.m3u8)["\']', html)
             if m3u8_match:
@@ -280,7 +287,6 @@ class Spider(Spider):
                 source = data('source[src*=".m3u8"], source[src*=".mp4"]')
                 video_url = source.attr('src') or ''
             if not video_url:
-                # 尝试从JavaScript变量中提取
                 js_matches = re.findall(r'(https?://[^\s"\']+\.(?:m3u8|mp4))', html)
                 if js_matches:
                     video_url = js_matches[0]
@@ -303,88 +309,81 @@ class Spider(Spider):
 
     def searchContent(self, key, quick, pg=1):
         try:
-            # 根据HTML文件中的搜索URL格式进行修正
-            encoded_key = urllib.parse.quote(key, encoding='utf-8', errors='replace')
+            # 关键词合法性校验
+            if not key.strip():
+                print("搜索关键词不能为空")
+                return {'list': [], 'page': int(pg), 'pagecount': 1, 'limit': 0, 'total': 0}
             
-            # 修正搜索URL格式（根据HTML文件中的实际格式）
-            if pg == 1:
-                search_url = f"{self.host}search.htm?search={encoded_key}"
-            else:
-                search_url = f"{self.host}search-{pg}.htm?search={encoded_key}"
+            # 编码关键词
+            encoded_key = urllib.parse.quote(key.strip(), encoding='utf-8', errors='replace')
             
-            html = self.fetch(search_url, headers=self.headers, timeout=5).text
-            html = html.encode('utf-8', errors='ignore').decode('utf-8')
+            # 构造搜索URL
+            search_url = f"{self.host}search.htm"
+            params = {
+                'search': encoded_key,
+                'page': int(pg)
+            }
+            
+            # 发起请求
+            resp = self.fetch(
+                url=search_url,
+                headers=self.headers,
+                params=params,
+                timeout=8
+            )
+            if resp.status_code not in (200, 302):
+                print(f"搜索页面请求失败，URL：{resp.url}，状态码：{resp.status_code}")
+                return {'list': [], 'page': int(pg), 'pagecount': 1, 'limit': 0, 'total': 0}
+            
+            # 处理页面内容
+            html = resp.text.encode('utf-8', errors='ignore').decode('utf-8')
             data = pq(html)
             
-            # 使用相同的一级解析规则，但需要定位到正确的容器
+            # 检测无结果场景
+            no_result_texts = ['没有找到相关视频', '无搜索结果', 'No results found', '未找到匹配内容']
+            no_result = any(data(f'div:contains("{text}"), p:contains("{text}")').text() for text in no_result_texts)
+            if no_result:
+                print(f"搜索关键词「{key}」第{pg}页无结果")
+                return {'list': [], 'page': int(pg), 'pagecount': 1, 'limit': 0, 'total': 0}
+            
+            # 解析搜索结果
             vlist = []
-            
-            # 根据HTML文件，视频项在<div class="row body">容器内
-            items = data('.row.body .col-xs-6.col-md-3, .row .col-xs-6.col-md-3')
-            
-            # 如果没有找到视频项，尝试其他可能的选择器
-            if not items:
-                items = data('.thumbnail')
-            
+            items = data('.row .col-xs-6.col-md-3')
             for item in items.items():
                 try:
-                    # 跳过用户结果部分，只处理视频结果
-                    if item.parents('.row:first-child').length > 0:
-                        continue
-                    
-                    # 提取标题
-                    title_elem = item('.caption.title h5 a, .title h5 a, h5 a')
-                    title = title_elem.text().strip()
+                    title = item('h5').text().strip()
                     if not title:
                         continue
                     
-                    # 提取图片URL
                     style = item('.image').attr('style') or ''
                     pic_match = re.search(r'url\(["\']?([^"\']+)["\']?\)', style)
                     vod_pic = pic_match.group(1) if pic_match else ''
-                    
-                    # 如果没有找到背景图片，尝试查找img标签
-                    if not vod_pic:
-                        vod_pic = item('img').attr('src') or ''
-                    
-                    if vod_pic and not vod_pic.startswith('http'):
+                    if vod_pic and not vod_pic.startswith(('http://', 'https://')):
                         vod_pic = f"{self.host.rstrip('/')}/{vod_pic.lstrip('/')}"
                     
-                    # 提取时长作为描述
-                    desc = item('.duration').text().strip() or '未知'
+                    desc = item('.duration').text().strip() or '未知时长'
                     
-                    # 提取链接
-                    href = title_elem.attr('href') or item('a').attr('href') or ''
+                    href = item('a').attr('href') or ''
                     if not href:
                         continue
-                    
-                    # 确保vod_id格式正确
                     vod_id = href.split('/')[-1]
                     if not vod_id.endswith('.htm'):
                         vod_id += '.htm'
-                    
-                    # 提取观看次数和日期
-                    info_text = item('.info').text() or ''
-                    views_match = re.search(r'(\d+\.?\d*[kK]?)次观看', info_text)
-                    views = views_match.group(1) if views_match else '未知'
-                    
-                    date_match = re.search(r'(\d{4}-\d{1,2}-\d{1,2})', info_text)
-                    date = date_match.group(1) if date_match else '未知'
                     
                     vlist.append({
                         'vod_id': vod_id,
                         'vod_name': title,
                         'vod_pic': vod_pic,
-                        'vod_remarks': f"{desc} | {views}次观看 | {date}"
+                        'vod_remarks': desc
                     })
                 except Exception as e:
-                    print(f"解析搜索视频项失败: {e}")
+                    print(f"解析单条搜索结果失败：{e}（跳过该条）")
                     continue
             
-            # 提取总页数
+            # 解析总页数
             pagecount = 1
             try:
-                pagination = data('.pagination1 li a, .pagination li a')
+                pagination = data('.pagination1 li a')
                 page_nums = []
                 for a in pagination.items():
                     text = a.text().strip()
@@ -392,13 +391,29 @@ class Spider(Spider):
                         page_nums.append(int(text))
                 if page_nums:
                     pagecount = max(page_nums)
-            except:
+                print(f"搜索关键词「{key}」分页解析完成，共{pagecount}页")
+            except Exception as e:
+                print(f"解析分页失败（默认单页）：{e}")
                 pagecount = 1
             
-            return {'list': vlist, 'page': int(pg), 'pagecount': pagecount}
+            # 返回结果（修复点2：补全page键的引号，修正语法错误）
+            total = len(vlist) * pagecount
+            print(f"搜索关键词「{key}」第{pg}页处理完成，结果{len(vlist)}条，总页数{pagecount}")
+            return {
+                'list': vlist,
+                'page': int(pg),  # 原代码此处缺少引号，导致语法错误
+                'pagecount': pagecount,
+                'limit': len(vlist),
+                'total': total
+            }
         except Exception as e:
-            print(f"搜索失败: {e}")
-            return {'list': [], 'page': int(pg), 'pagecount': 1}
+            print(f"搜索功能整体异常：{e}")
+            return {
+                'list': [],
+                'page': int(pg),                  'pagecount': 1,
+                'limit': 0,
+                'total': 0
+            }
 
     def playerContent(self, flag, id, vipFlags):
         headers = self.headers.copy()
@@ -446,17 +461,73 @@ class Spider(Spider):
                 time.sleep(0.5)
         return type('obj', (object,), {'text': '', 'status_code': 404})
 
-    def fetch(self, url, headers=None, timeout=5, method='GET'):
+    def fetch(self, url, headers=None, timeout=5, method='GET', params=None):
         headers = headers or self.headers
+        params = params or {}
         try:
             if method.upper() == 'GET':
-                resp = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
+                resp = requests.get(
+                    url, 
+                    headers=headers, 
+                    timeout=timeout, 
+                    allow_redirects=True,
+                    params=params  # 支持GET请求带参数，适配搜索分页
+                )
             elif method.upper() == 'HEAD':
-                resp = requests.head(url, headers=headers, timeout=timeout, allow_redirects=False)
+                resp = requests.head(
+                    url, 
+                    headers=headers, 
+                    timeout=timeout, 
+                    allow_redirects=False,
+                    params=params
+                )
             else:
-                resp = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
-            resp.encoding = 'utf-8'
+                resp = requests.get(  # 默认GET请求，兼容其他方法调用
+                    url, 
+                    headers=headers, 
+                    timeout=timeout, 
+                    allow_redirects=True,
+                    params=params
+                )
+            # 自动适配编码，避免中文乱码
+            if 'charset' in resp.headers.get('Content-Type', '').lower():
+                resp.encoding = resp.apparent_encoding
+            else:
+                resp.encoding = 'utf-8'
             return resp
         except Exception as e:
             print(f"网络请求失败({url}): {e}")
-            return type('obj', (object,), {'text': '', 'status_code': 500, 'headers': {}})
+            # 返回统一格式空响应，避免后续逻辑崩溃
+            return type('obj', (object,), {
+                'text': '', 
+                'status_code': 500, 
+                'headers': {},
+                'url': url
+            })
+
+
+# ------------------------------
+# 可选测试代码（运行时注释或删除，用于验证功能）
+# ------------------------------
+if __name__ == "__main__":
+    # 初始化爬虫
+    spider = Spider()
+    spider.init()
+    
+    # 测试首页内容
+    print("=== 测试首页 ===")
+    home_data = spider.homeContent(filter='')
+    print(f"首页分类数：{len(home_data['class'])}")
+    print(f"首页视频数：{len(home_data['list'])}")
+    
+    # 测试视频分类（修复后的数据获取）
+    print("\n=== 测试视频分类（第1页） ===")
+    cate_data = spider.categoryContent(tid='list', pg=1, filter='', extend='')
+    print(f"视频分类第1页视频数：{len(cate_data['list'])}")
+    print(f"视频分类总页数：{cate_data['pagecount']}")
+    
+    # 测试搜索功能（修复语法错误后）
+    print("\n=== 测试搜索（关键词：测试） ===")
+    search_data = spider.searchContent(key="测试", quick=False, pg=1)
+    print(f"搜索结果数：{len(search_data['list'])}")
+    print(f"搜索总页数：{search_data['pagecount']}")

@@ -54,23 +54,100 @@
             "ext": "./json/比卡.json"
         },
         {
-            "key": "liberation",
-            "name": "🔞liberation",
+            "key": "asian",
+            "name": "🔞asian",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/liberation.json"
+            "jar": "./jar/XYQ.jar",
+            "ext": "./json/asian.json"
         },
         {
-            "key": "农夫与少妇1",
-            "name": "🔞农夫与少妇(翻)",
+            "key": "bd.one",
+            "name": "🔞bd.one",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./jar/XBPQ.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/农夫与少妇.json"
+            "ext": "./json/bd.one.json"
+        },
+        {
+            "key": "cure",
+            "name": "🔞cure",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/cure.json"
+        },
+        {
+            "key": "hamster",
+            "name": "🔞hamster",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/hamster.json"
+        },
+        {
+            "key": "abjav",
+            "name": "🔞abjav(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/abjav.json"
+        },
+        {
+            "key": "freebd",
+            "name": "🔞freebd(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/freebd.json"
+        },
+        {
+            "key": "jbdsm",
+            "name": "🔞jbdsm(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/jbdsm.json"
+        },
+        {
+            "key": "pornXP",
+            "name": "🔞pornXP(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/pornXP.json"
+        },
+        {
+            "key": "pornlab-kb",
+            "name": "🔞pornlab-kb(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/pornlab-kb.json"
+        },
+        {
+            "key": "pornlab",
+            "name": "🔞pornlab(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/pornlab.json"
+        },
+        {
+            "key": "pornxxx",
+            "name": "🔞pornxxx(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/pornxxx.json"
+        },
+        {
+            "key": "valley",
+            "name": "🔞valley(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/valley.json"
         },
         {
             "key": "bongacams直播",

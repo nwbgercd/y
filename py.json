@@ -55,6 +55,15 @@
             "filterable": 1
         },
         {
+            "key": "麦田影院",
+            "name": "麦田影院",
+            "type": 3,
+            "api": "./py/麦田影院.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "熊猫",
             "name": "🔞熊猫",
             "type": 3,

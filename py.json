@@ -110,6 +110,24 @@
             "filterable": 1
         },
         {
+            "key": "py_stgay",
+            "name": "🔞py_stgay(翻)",
+            "type": 3,
+            "api": "./py/py_stgay.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "py_mrav",
+            "name": "🔞py_mrav(翻)",
+            "type": 3,
+            "api": "./py/py_mrav.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "lavAPP",
             "name": "🔞lavAPP(翻)",
             "type": 3,

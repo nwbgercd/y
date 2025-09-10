@@ -55,6 +55,17 @@
             "ext": "https://fm.t4tv.hz.cz/json/market.json"
         },
         {
+            "name": "嗷呜弹幕",
+            "key": "嗷呜弹幕",
+            "type": 3,
+            "api": "csp_GoConfig",
+            "jar": "https://gitee.com/amg99/tvjson/raw/master/spider/custom_spider.jar",
+            "searchable": 0,
+            "filterable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
             "key": "CCTV",
             "name": "CCTV",
             "type": 1,
@@ -65,6 +76,7 @@
             },
             "changeable": 1
         },
+        
         {
             "key": "黑木耳资源",
             "name": "黑木耳影视",

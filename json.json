@@ -46,12 +46,50 @@
             }
         },
         {
+            "key": "二十四短剧",
+            "name": "二十四短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "searchable": 1,
+            "style": {
+                "ratio": 1.43
+            },
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/二十四短剧.json"
+        },
+        {
             "key": "bika",
             "name": "🔞比卡",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./jar/XBPQ.jar",
             "ext": "./json/比卡.json"
+        },
+        {
+            "key": "一根逼毛",
+            "name": "🔞一根逼毛",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/一根逼毛.json"
+        },
+        {
+            "key": "金陵撸铁汉",
+            "name": "🔞金陵撸铁汉",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/金陵撸铁汉.json"
+        },
+        {
+            "key": "油条视频",
+            "name": "🔞油条视频",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/油条视频.json"
         },
         {
             "key": "asian",
@@ -68,6 +106,21 @@
             "api": "csp_XBPQ",
             "jar": "./jar/XBPQ.jar",
             "ext": "./json/bd.one.json"
+        },
+        {
+            "key": "csp_XYQHiker_bad",
+            "name": "🔞Bad.news(翻)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./jar/XYQ.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./json/bad.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.8
+            }
         },
         {
             "key": "cure",

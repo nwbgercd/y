@@ -2344,6 +2344,16 @@
     ],
     "lives": [
         {
+            "name": "歌曲1",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/gq1.txt"
+        },
+        {
+            "name": "午夜",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/0.txt"
+        },
+        {
             "group": "redirect",
             "channels": [
                 {

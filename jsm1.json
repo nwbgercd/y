@@ -76,7 +76,197 @@
             },
             "changeable": 1
         },
-        
+        {
+            "key": "随机小姐姐",
+            "name": "随机小姐姐",
+            "type": 3,
+            "api": "./py/随机小姐姐.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "YYMP3音乐网",
+            "name": "YYMP3音乐网",
+            "type": 3,
+            "api": "./py/YYMP3音乐网.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "py_bilibilivd",
+            "name": "py_bilibilivd",
+            "type": 3,
+            "api": "./py/py_bilibilivd.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "LIVES",
+            "name": "LIVES",
+            "type": 3,
+            "api": "./py/LIVES.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "4KAV",
+            "name": "4KAV",
+            "type": 3,
+            "api": "./py/4KAV.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "4K影院",
+            "name": "4K影院",
+            "type": 3,
+            "api": "./py/4K影院.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "饭团影视",
+            "name": "饭团影视",
+            "type": 3,
+            "api": "./py/饭团影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "小红影视",
+            "name": "小红影视",
+            "type": 3,
+            "api": "./py/小红影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "两个BT",
+            "name": "两个BT",
+            "type": 3,
+            "api": "./py/两个BT.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "嗷呜动漫",
+            "name": "嗷呜动漫",
+            "type": 3,
+            "api": "./py/嗷呜动漫.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "电影猎手",
+            "name": "电影猎手",
+            "type": 3,
+            "api": "./py/电影猎手.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "光速APP",
+            "name": "光速APP",
+            "type": 3,
+            "api": "./py/光速APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "哇哇APP",
+            "name": "哇哇APP",
+            "type": 3,
+            "api": "./py/哇哇APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "热播APP",
+            "name": "热播APP",
+            "type": 3,
+            "api": "./py/热播APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "国外剧APP",
+            "name": "国外剧APP",
+            "type": 3,
+            "api": "./py/国外剧APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "芒",
+            "name": "芒果TV",
+            "type": 3,
+            "api": "./py/芒.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "秀儿影视",
+            "name": "秀儿影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/秀儿影视.json"
+        },
+        {
+            "key": "test",
+            "name": "韩剧看看",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/韩剧看看.json"
+        },
+        {
+            "key": "麦田APP",
+            "name": "麦田APP",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/麦田APP.json"
+        },
+        {
+            "key": "甜圈短剧",
+            "name": "甜圈短剧",
+            "type": 3,
+            "api": "./py/甜圈短剧.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "二十四短剧",
+            "name": "二十四短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/xyqxbpq.jar",
+            "searchable": 1,
+            "style": {
+                "ratio": 1.43
+            },
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/二十四短剧.json"
+        },
         {
             "key": "黑木耳资源",
             "name": "黑木耳影视",

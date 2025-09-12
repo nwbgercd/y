@@ -13,9 +13,9 @@
         },
         {
             "key": "test",
-            "name": "🔞test",
+            "name": "🔞jubaba2",
             "type": 3,
-            "api": "./py/test.py",
+            "api": "./py/jubaba2.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -100,7 +100,7 @@
         },
         {
             "key": "👙97fyy.com",
-            "name": "🔞👙乐哥精品",
+            "name": "🔞👙乐哥精品(翻)",
             "type": 3,
             "jar": "./jar/xyqxbpq.jar",
             "api": "csp_XBPQ",
@@ -142,35 +142,12 @@
             "filterable": 1
         },
         {
-            "key": "bongacams直播",
-            "name": "🔞bongacams(翻)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "jar": "./jar/XYQ.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./json/bongacams直播.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.6
-            }
-        },
-        {
             "key": "bika",
             "name": "🔞比卡",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./jar/XBPQ.jar",
             "ext": "./json/比卡.json"
-        },
-        {
-            "key": "一根逼毛",
-            "name": "🔞一根逼毛",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/一根逼毛.json"
         },
         {
             "key": "AV帝国",
@@ -205,14 +182,6 @@
             "ext": "./json/油条视频.json"
         },
         {
-            "key": "小淫棍",
-            "name": "🔞小淫棍",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/小淫棍.json"
-        },
-        {
             "key": "asian",
             "name": "🔞asian",
             "type": 3,
@@ -229,147 +198,6 @@
             "ext": "./json/bd.one.json"
         },
         {
-            "key": "csp_XYQHiker_bad",
-            "name": "🔞Bad.news(翻)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "jar": "./jar/XYQ.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./json/bad.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.8
-            }
-        },
-        {
-            "key": "cure",
-            "name": "🔞cure",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/cure.json"
-        },
-        {
-            "key": "hamster",
-            "name": "🔞hamster",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/hamster.json"
-        },
-        {
-            "key": "abjav",
-            "name": "🔞abjav(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/abjav.json"
-        },
-        {
-            "key": "freebd",
-            "name": "🔞freebd(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/freebd.json"
-        },
-        {
-            "key": "jbdsm",
-            "name": "🔞jbdsm(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/jbdsm.json"
-        },
-        {
-            "key": "pornXP",
-            "name": "🔞pornXP(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/pornXP.json"
-        },
-        {
-            "key": "pornlab-kb",
-            "name": "🔞pornlab-kb(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/pornlab-kb.json"
-        },
-        {
-            "key": "pornlab",
-            "name": "🔞pornlab(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/pornlab.json"
-        },
-        {
-            "key": "pornxxx",
-            "name": "🔞pornxxx(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/pornxxx.json"
-        },
-        {
-            "key": "valley",
-            "name": "🔞valley(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/valley.json"
-        },
-        {
-            "key": "JAVSB",
-            "name": "🔞JAVSB(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/JAVSB.json"
-        },
-        {
-            "key": "NOWAV",
-            "name": "🔞NOWAV(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/NOWAV.json"
-        },
-        {
-            "key": "Pornhub",
-            "name": "🔞pornhub(翻)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "jar": "./jar/XYQ.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./json/pornhub.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.6
-            }
-        },
-        {
-            "key": "csp_MOTV",
-            "name": "🔞MOTV(翻)",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "jar": "./jar/XYQ.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./json/motv.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.6
-            }
-        },
-        {
             "key": "6v",
             "name": "🔞6v",
             "type": 3,
@@ -377,166 +205,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "吃瓜",
-            "name": "🔞吃瓜",
-            "type": 3,
-            "api": "./py/吃瓜.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "熊猫",
-            "name": "🔞熊猫",
-            "type": 3,
-            "api": "./py/熊猫.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "好色TV",
-            "name": "🔞好色TV",
-            "type": 3,
-            "api": "./py/好色TV.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "推特APP",
-            "name": "🔞推特APP",
-            "type": 3,
-            "api": "./py/推特APP.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "黑料",
-            "name": "🔞黑料(翻)",
-            "type": 3,
-            "api": "./py/黑料.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "小红薯APP",
-            "name": "🔞小红薯APP(翻)",
-            "type": 3,
-            "api": "./py/小红薯APP.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "py_stgay",
-            "name": "🔞py_stgay(翻)",
-            "type": 3,
-            "api": "./py/py_stgay.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "lavAPP",
-            "name": "🔞lavAPP(翻)",
-            "type": 3,
-            "api": "./py/lavAPP.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "Xvd",
-            "name": "🔞Xvd(翻)",
-            "type": 3,
-            "api": "./py/Xvd.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "Xhm",
-            "name": "🔞Xhm(翻)",
-            "type": 3,
-            "api": "./py/Xhm.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "py_Xhm",
-            "name": "🔞Xhamster(翻)",
-            "type": 3,
-            "api": "./py/py_Xhm.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "xhamster",
-            "name": "🔞xhamster",
-            "type": 3,
-            "api": "./py/xhamster.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "Phb",
-            "name": "🔞Phb(翻)",
-            "type": 3,
-            "api": "./py/Phb.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "DSYS",
-            "name": "🔞DSYS(翻)",
-            "type": 3,
-            "api": "./py/DSYS.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "py_stripchat",
-            "name": "🔞py_stripchat(翻)",
-            "type": 3,
-            "api": "./py/py_stripchat.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "快递",
-            "name": "🔞快递(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://www.xjjkdfw.sbs/",
-                "数组": "thumbnail\"&&</li>",
-                "标题": ">&&<",
-                "图片": "original=\"&&\"",
-                "链接": "href=\"&&\"[替换:voddetail>>vodplay#.html>>-1-1.html]",
-                "分类url": "https://www.xjjkdfw.sbs/vodtype/{cateId}/page/{catePg}.html",
-                "分类二次截取": "<div class=\"area\">&&</div",
-                "分类数组": "<a&&/a>",
-                "分类标题": ">&&<",
-                "分类ID": "/vodtype/&&.html"
-            }
         },
         {
             "key": "小鸡资源",
@@ -559,17 +227,6 @@
             "searchable": 1,
             "filterable": 1,
             "jar": "./jar/182.jar"
-        },
-        {
-            "key": "辣味TV",
-            "name": "🔞辣味TV",
-            "type": 3,
-            "jar": "./jar/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类url": "https://xsese.com/;;!",
-                "简介": "dpescription\" content=\"&&\""
-            }
         },
         {
             "key": "lbapi9.com",
@@ -838,30 +495,6 @@
             }
         },
         {
-            "key": "风流视频",
-            "name": "🔞风流视频",
-            "type": 3,
-            "jar": "./jar/xyqxbpq.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "主页url": "https://djtzph.flsp8.cyou/cn/home/web/",
-                "数组": "container&&</li>",
-                "标题": "title=\"&&\"",
-                "图片": "src=\"&&\"",
-                "副标题": "icoplay\">&&</",
-                "链接": "href=\"&&\"",
-                "简介": "description\" content=\"&&\"",
-                "分类url": "https://djtzph.flsp8.cyou/vodtype/{cateId}-{catePg}.html;;z",
-                "分类数组": "<a&&/a>",
-                "分类标题": ">&&<",
-                "分类ID": "/vodtype/&&.html"
-            }
-        },
-        {
             "key": "香奶儿资源站",
             "name": "🔞香奶儿资源站",
             "type": 0,
@@ -915,92 +548,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
-        },
-        {
-            "key": "猛男日妓",
-            "name": "🔞猛男日妓",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 12；； PEHM00 Build/SKQ1.210216.001；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36&&Cookie@c6s_RobotVerify=1；； gg_iscookie=1；； _ga=GA1.1.1482105610.1729155635；； c6s_uv=21e3094d1ded55b9be44364d1d0ac6ec；； gg_show_number3644=3",
-                "编码": "UTF-8",
-                "主页url": "https://xn--ieu270c.mnrj0z53.xyz",
-                "数组": "默认--<div class=\"gal\">&&</a||搜索--<div class=\"gal\">&&</a",
-                "图片": "original=\"&&\"",
-                "标题": "title=\"&&\"",
-                "副标题": "</i>&&<",
-                "简介": "description\" content=\"&&\"",
-                "链接": "href=\"&&\"",
-                "跳转播放链接": "\"url\": \"&&\"",
-                "搜索模式": "1",
-                "搜索url": "/index.php?m=vod-search-wd-{wd}-pg-{pg}.htm",
-                "分类url": "/index.php?m=vod-type-id-{cateId}-pg-{catePg}.htm;;z",
-                "分类": "国产视频$495#国产传媒$496#中文字幕$497#日本有码$498#日本无码$499#强奸乱伦$500#制服诱惑$501#激情欧美$502#成人动漫$503#抖阴视频$504#人妖伪娘$505#萝莉少女$1116#SM调教$1117#三级片$1118"
-            }
-        },
-        {
-            "key": "不雅视频",
-            "name": "🔞不雅视频",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "主页url": "https://byym13.buzz/",
-                "数组": "fed-list-item&&</li>",
-                "图片": "('&&')",
-                "标题": "title=\"&&\"",
-                "链接": "href=\"&&\"[替换:display>>detail]",
-                "分类url": "https://byym13.buzz/sort/{cateId}/{catePg};;z",
-                "分类": "无码专区&制服诱惑&三级伦理&AI换脸&中文字幕&卡通动漫&欧美系列&美女主播&国产自拍&熟女人妻&萝莉少女&女同性爱&多人群交&美乳巨乳&强奸乱伦&抖阴视频&韩国主播&网红头条&网爆黑料&欧美无码&女优明星&SM调教&AV解说&日本AV&国产视频&动漫天堂&黑料吃瓜&伦理剧情&稀缺资源&中文字幕&角色剧情&无码推荐&丝袜美腿&传媒影视&国产精品&美女主播&素人拍摄&偷拍自拍&里番作品&3D动漫&同人作品&热门事件&吃瓜事件&采集帮助&SPA养生&日韩精品&制服淫穴&台湾swag&日本无码&日本有码&中字无码&主播视讯&欧美性爱&日本乱伦&AV解说&国产AV&乱伦国产&强奸乱伦&AI换脸&制服诱惑&滴滴探花&成人动漫&SPA养生&日本乱伦&萝莉少女",
-                "分类值": "21&25&27&29&30&32&35&36&38&40&42&44&46&48&49&50&51&52&53&54&55&56&57&257&258&259&260&261&262&263&264&265&266&267&268&269&270&271&272&273&274&275&276&277&278&279&280&281&282&283&284&285&286&287&288&289&290&291&292&293&294&295&296&297&298"
-            }
-        },
-        {
-            "key": "蜜桃屯",
-            "name": "🔞蜜桃屯",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "ext": {
-                "二次截取": "class=\"block-post&&align=\"center",
-                "数组": "target=\"_blank&&class=\"info-post",
-                "图片": "data-src=\"&&\"",
-                "标题": "title=\"&&\"",
-                "链接": "href=\"&&\"",
-                "直接播放": "1",
-                "跳转播放链接": "var player_*\"url\":\"&&\"",
-                "搜索url": "https://www.okav13.mom/index.php/vod/search/page/{pg}/wd/{wd}.html",
-                "分类url": "https://www.okav13.mom/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html",
-                "分类": "国产AV$1#日韩AV$2#欧美AV$3#污污动漫$4#高清字幕$5#顶级主播$9#外流泄密$11#偷窥偷拍$14#传媒剧情$15#强奸乱伦$13#三级伦理$16",
-                "排序": "热门$hits#点赞$up#评分$score"
-            }
-        },
-        {
-            "key": "色弟弟",
-            "name": "🔞弟弟影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "数组": "popup-video-link&&</a>",
-                "标题": "<strong class=\"title\">&&</strong>",
-                "图片": "original=\"&&\"",
-                "链接": "href=\"&&\"",
-                "搜索url": "https://bk8.sedidi33.xyz/?mod=videos&wd={wd}&page={pg}",
-                "分类url": "https://bk8.sedidi33.xyz/?mod=videos&cateid={cateId}&page={catePg};;z",
-                "分类": "国产精品$5049#国产传媒$5050#网曝黑料$5051#中文字幕$5052#日本有码$5053#日本无码$5054#激情欧美$5055#成人动漫$5056"
-            }
         },
         {
             "key": "小姨子的诱惑",
@@ -1117,46 +664,6 @@
             }
         },
         {
-            "key": "农夫与蛇",
-            "name": "🔞农夫与蛇",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            },
-            "ext": {
-                "主页url": "https://nfsf8kj.nfsf-a2.buzz/go",
-                "搜索url": "https://nfsf8kj.nfsf-a2.buzz/go/index.php/vod/search.html?wd={wd}",
-                "数组": "<li>&&</li>",
-                "图片": "data-original=\"&&\"",
-                "标题": "title=\"&&\"",
-                "副标题": "class=\"date-text-bg text-bg-r\"&&</p>",
-                "链接": "href=\"&&\"",
-                "分类url": "https://nfsf8kj.nfsf-a2.buzz/go/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z",
-                "分类": "国产专区$6#制服诱惑$13#中文字幕$7#国产传媒$8#日本有码$9#日本无码$10#欧美无码$11#强奸乱伦$12#三级专区$23#人妖系列$30#韩国主播$31#国产主播$14#激情动漫$15#明星换脸$16#抖阴视频$20#女优明星$21#网曝黑料$22#AV解说$24#SM调教$25#少女萝莉$26"
-            }
-        },
-        {
-            "key": "百万AV",
-            "name": "🔞百万AV",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": {
-                "主页url": "https://xn--ij-zz6c60yy3e.adfxcv-aekhfhiswe-bwavldojksdf.buzz/duoziyuan/yaowuwu/",
-                "图片": "data-src=\"&&\"",
-                "标题": "title=\"&&\"",
-                "链接": "href=\"&&\"",
-                "播放标题": "",
-                "播放链接": "",
-                "直接播放": "1",
-                "分类": "精选$1#麻豆传媒$20#重口味$626262#国产sm$626262#中国主播$chinese_live_porn/#中文字幕$JAV_CHN.SUBs#有码破坏$Mosaic_Removed#MGS视频$MGS#国产成人$Asian_Amateur#欧美成人$Western_Porn#写真特级$Adult_IDOL#动画$Anime#巨乳$巨乳",
-                "分类url": "https://xn--ij-zz6c60yy3e.adfxcv-aekhfhiswe-bwavldojksdf.buzz/duoziyuan/yaowuwu/index.php/vod/type/id/{cateId}/page/{catePg}.html"
-            }
-        },
-        {
             "key": "百万资源",
             "name": "🔞百万资源",
             "type": 1,
@@ -1176,15 +683,6 @@
             "type": 0,
             "api": "https://thzy1.me/api.php/provide/vod/at/xml",
             "playerUrl": ""
-        },
-        {
-            "key": "玉兔资源",
-            "name": "🔞玉兔资源",
-            "type": 1,
-            "api": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
         },
         {
             "key": "丝袜资源",
@@ -1212,62 +710,11 @@
             "filterable": 1
         },
         {
-            "key": "橘猫资源",
-            "name": "🔞橘猫资源",
-            "type": 1,
-            "api": "https://to.to-long.com/api.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
             "key": "大地资源",
             "name": "🔞大地资源",
             "type": 0,
             "api": "https://dadiapi.com/api.php/provide/vod/at/xml",
             "playerUrl": ""
-        },
-        {
-            "key": "色猫资源",
-            "name": "🔞色猫资源",
-            "type": 1,
-            "api": "https://caiji.semaozy.net/inc/apijson_vod.php/",
-            "playUrl": "",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.485
-            },
-            "categories": [
-                "国产自拍",
-                "日本无码",
-                "日本有码",
-                "中文字幕",
-                "欧美精品",
-                "成人动漫",
-                "日本素人",
-                "高清名优",
-                "三级伦理",
-                "网红主播",
-                "映画传媒",
-                "人妻熟女",
-                "口爆颜射",
-                "萝莉少女",
-                "SM调教",
-                "美乳巨乳",
-                "短视频",
-                "制服诱惑",
-                "女同性爱",
-                "AI换脸",
-                "多人群交",
-                "翹臀美尻",
-                "丝袜美腿",
-                "精选独家",
-                "貧乳小奶",
-                "探花系列"
-            ]
         },
         {
             "key": "色南国资源",
@@ -1841,6 +1288,551 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "proxy"
+        },
+        {
+            "key": "bongacams直播",
+            "name": "🔞bongacams(翻)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./jar/XYQ.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./json/bongacams直播.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6
+            }
+        },
+        {
+            "key": "一根逼毛",
+            "name": "🔞一根逼毛(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/一根逼毛.json"
+        },
+        {
+            "key": "cure",
+            "name": "🔞cure(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/cure.json"
+        },
+        {
+            "key": "hamster",
+            "name": "🔞hamster(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/hamster.json"
+        },
+        {
+            "key": "abjav",
+            "name": "🔞abjav(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/abjav.json"
+        },
+        {
+            "key": "freebd",
+            "name": "🔞freebd(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/freebd.json"
+        },
+        {
+            "key": "jbdsm",
+            "name": "🔞jbdsm(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/jbdsm.json"
+        },
+        {
+            "key": "pornXP",
+            "name": "🔞pornXP(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/pornXP.json"
+        },
+        {
+            "key": "pornlab-kb",
+            "name": "🔞pornlab-kb(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/pornlab-kb.json"
+        },
+        {
+            "key": "pornlab",
+            "name": "🔞pornlab(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/pornlab.json"
+        },
+        {
+            "key": "pornxxx",
+            "name": "🔞pornxxx(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/pornxxx.json"
+        },
+        {
+            "key": "valley",
+            "name": "🔞valley(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/valley.json"
+        },
+        {
+            "key": "JAVSB",
+            "name": "🔞JAVSB(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/JAVSB.json"
+        },
+        {
+            "key": "NOWAV",
+            "name": "🔞NOWAV(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/NOWAV.json"
+        },
+        {
+            "key": "Pornhub",
+            "name": "🔞pornhub(翻)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./jar/XYQ.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./json/pornhub.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6
+            }
+        },
+        {
+            "key": "csp_MOTV",
+            "name": "🔞MOTV(翻)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./jar/XYQ.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./json/motv.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6
+            }
+        },
+        {
+            "key": "csp_XYQHiker_bad",
+            "name": "🔞Bad.news(翻)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./jar/XYQ.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./json/bad.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.8
+            }
+        },
+        {
+            "key": "吃瓜",
+            "name": "🔞吃瓜(翻)",
+            "type": 3,
+            "api": "./py/吃瓜.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "熊猫",
+            "name": "🔞熊猫(翻)",
+            "type": 3,
+            "api": "./py/熊猫.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "好色TV",
+            "name": "🔞好色TV(翻)",
+            "type": 3,
+            "api": "./py/好色TV.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "推特APP",
+            "name": "🔞推特APP(翻)",
+            "type": 3,
+            "api": "./py/推特APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "黑料",
+            "name": "🔞黑料(翻)",
+            "type": 3,
+            "api": "./py/黑料.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "小红薯APP",
+            "name": "🔞小红薯APP(翻)",
+            "type": 3,
+            "api": "./py/小红薯APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "py_stgay",
+            "name": "🔞py_stgay(翻)",
+            "type": 3,
+            "api": "./py/py_stgay.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "lavAPP",
+            "name": "🔞lavAPP(翻)",
+            "type": 3,
+            "api": "./py/lavAPP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "Xvd",
+            "name": "🔞Xvd(翻)",
+            "type": 3,
+            "api": "./py/Xvd.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "Xhm",
+            "name": "🔞Xhm(翻)",
+            "type": 3,
+            "api": "./py/Xhm.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "py_Xhm",
+            "name": "🔞Xhamster(翻)",
+            "type": 3,
+            "api": "./py/py_Xhm.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "xhamster",
+            "name": "🔞xhamster(翻)",
+            "type": 3,
+            "api": "./py/xhamster.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "Phb",
+            "name": "🔞Phb(翻)",
+            "type": 3,
+            "api": "./py/Phb.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "DSYS",
+            "name": "🔞DSYS(翻)",
+            "type": 3,
+            "api": "./py/DSYS.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "py_stripchat",
+            "name": "🔞py_stripchat(翻)",
+            "type": 3,
+            "api": "./py/py_stripchat.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "快递",
+            "name": "🔞快递(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://www.xjjkdfw.sbs/",
+                "数组": "thumbnail\"&&</li>",
+                "标题": ">&&<",
+                "图片": "original=\"&&\"",
+                "链接": "href=\"&&\"[替换:voddetail>>vodplay#.html>>-1-1.html]",
+                "分类url": "https://www.xjjkdfw.sbs/vodtype/{cateId}/page/{catePg}.html",
+                "分类二次截取": "<div class=\"area\">&&</div",
+                "分类数组": "<a&&/a>",
+                "分类标题": ">&&<",
+                "分类ID": "/vodtype/&&.html"
+            }
+        },
+        {
+            "key": "辣味TV",
+            "name": "🔞辣味TV(翻)",
+            "type": 3,
+            "jar": "./jar/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://xsese.com/;;!",
+                "简介": "dpescription\" content=\"&&\""
+            }
+        },
+        {
+            "key": "风流视频",
+            "name": "🔞风流视频(翻)",
+            "type": 3,
+            "jar": "./jar/xyqxbpq.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://djtzph.flsp8.cyou/cn/home/web/",
+                "数组": "container&&</li>",
+                "标题": "title=\"&&\"",
+                "图片": "src=\"&&\"",
+                "副标题": "icoplay\">&&</",
+                "链接": "href=\"&&\"",
+                "简介": "description\" content=\"&&\"",
+                "分类url": "https://djtzph.flsp8.cyou/vodtype/{cateId}-{catePg}.html;;z",
+                "分类数组": "<a&&/a>",
+                "分类标题": ">&&<",
+                "分类ID": "/vodtype/&&.html"
+            }
+        },
+        {
+            "key": "猛男日妓",
+            "name": "🔞猛男日妓(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 12；； PEHM00 Build/SKQ1.210216.001；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36&&Cookie@c6s_RobotVerify=1；； gg_iscookie=1；； _ga=GA1.1.1482105610.1729155635；； c6s_uv=21e3094d1ded55b9be44364d1d0ac6ec；； gg_show_number3644=3",
+                "编码": "UTF-8",
+                "主页url": "https://xn--ieu270c.mnrj0z53.xyz",
+                "数组": "默认--<div class=\"gal\">&&</a||搜索--<div class=\"gal\">&&</a",
+                "图片": "original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "</i>&&<",
+                "简介": "description\" content=\"&&\"",
+                "链接": "href=\"&&\"",
+                "跳转播放链接": "\"url\": \"&&\"",
+                "搜索模式": "1",
+                "搜索url": "/index.php?m=vod-search-wd-{wd}-pg-{pg}.htm",
+                "分类url": "/index.php?m=vod-type-id-{cateId}-pg-{catePg}.htm;;z",
+                "分类": "国产视频$495#国产传媒$496#中文字幕$497#日本有码$498#日本无码$499#强奸乱伦$500#制服诱惑$501#激情欧美$502#成人动漫$503#抖阴视频$504#人妖伪娘$505#萝莉少女$1116#SM调教$1117#三级片$1118"
+            }
+        },
+        {
+            "key": "不雅视频",
+            "name": "🔞不雅视频(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "主页url": "https://byym13.buzz/",
+                "数组": "fed-list-item&&</li>",
+                "图片": "('&&')",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"[替换:display>>detail]",
+                "分类url": "https://byym13.buzz/sort/{cateId}/{catePg};;z",
+                "分类": "无码专区&制服诱惑&三级伦理&AI换脸&中文字幕&卡通动漫&欧美系列&美女主播&国产自拍&熟女人妻&萝莉少女&女同性爱&多人群交&美乳巨乳&强奸乱伦&抖阴视频&韩国主播&网红头条&网爆黑料&欧美无码&女优明星&SM调教&AV解说&日本AV&国产视频&动漫天堂&黑料吃瓜&伦理剧情&稀缺资源&中文字幕&角色剧情&无码推荐&丝袜美腿&传媒影视&国产精品&美女主播&素人拍摄&偷拍自拍&里番作品&3D动漫&同人作品&热门事件&吃瓜事件&采集帮助&SPA养生&日韩精品&制服淫穴&台湾swag&日本无码&日本有码&中字无码&主播视讯&欧美性爱&日本乱伦&AV解说&国产AV&乱伦国产&强奸乱伦&AI换脸&制服诱惑&滴滴探花&成人动漫&SPA养生&日本乱伦&萝莉少女",
+                "分类值": "21&25&27&29&30&32&35&36&38&40&42&44&46&48&49&50&51&52&53&54&55&56&57&257&258&259&260&261&262&263&264&265&266&267&268&269&270&271&272&273&274&275&276&277&278&279&280&281&282&283&284&285&286&287&288&289&290&291&292&293&294&295&296&297&298"
+            }
+        },
+        {
+            "key": "蜜桃屯",
+            "name": "🔞蜜桃屯(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "ext": {
+                "二次截取": "class=\"block-post&&align=\"center",
+                "数组": "target=\"_blank&&class=\"info-post",
+                "图片": "data-src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "直接播放": "1",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "搜索url": "https://www.okav13.mom/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "分类url": "https://www.okav13.mom/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}.html",
+                "分类": "国产AV$1#日韩AV$2#欧美AV$3#污污动漫$4#高清字幕$5#顶级主播$9#外流泄密$11#偷窥偷拍$14#传媒剧情$15#强奸乱伦$13#三级伦理$16",
+                "排序": "热门$hits#点赞$up#评分$score"
+            }
+        },
+        {
+            "key": "色弟弟",
+            "name": "🔞弟弟影视(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/xyqxbpq.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "数组": "popup-video-link&&</a>",
+                "标题": "<strong class=\"title\">&&</strong>",
+                "图片": "original=\"&&\"",
+                "链接": "href=\"&&\"",
+                "搜索url": "https://bk8.sedidi33.xyz/?mod=videos&wd={wd}&page={pg}",
+                "分类url": "https://bk8.sedidi33.xyz/?mod=videos&cateid={cateId}&page={catePg};;z",
+                "分类": "国产精品$5049#国产传媒$5050#网曝黑料$5051#中文字幕$5052#日本有码$5053#日本无码$5054#激情欧美$5055#成人动漫$5056"
+            }
+        },
+        {
+            "key": "农夫与蛇",
+            "name": "🔞农夫与蛇(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": {
+                "主页url": "https://nfsf8kj.nfsf-a2.buzz/go",
+                "搜索url": "https://nfsf8kj.nfsf-a2.buzz/go/index.php/vod/search.html?wd={wd}",
+                "数组": "<li>&&</li>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "class=\"date-text-bg text-bg-r\"&&</p>",
+                "链接": "href=\"&&\"",
+                "分类url": "https://nfsf8kj.nfsf-a2.buzz/go/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z",
+                "分类": "国产专区$6#制服诱惑$13#中文字幕$7#国产传媒$8#日本有码$9#日本无码$10#欧美无码$11#强奸乱伦$12#三级专区$23#人妖系列$30#韩国主播$31#国产主播$14#激情动漫$15#明星换脸$16#抖阴视频$20#女优明星$21#网曝黑料$22#AV解说$24#SM调教$25#少女萝莉$26"
+            }
+        },
+        {
+            "key": "百万AV",
+            "name": "🔞百万AV(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": {
+                "主页url": "https://xn--ij-zz6c60yy3e.adfxcv-aekhfhiswe-bwavldojksdf.buzz/duoziyuan/yaowuwu/",
+                "图片": "data-src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "播放标题": "",
+                "播放链接": "",
+                "直接播放": "1",
+                "分类": "精选$1#麻豆传媒$20#重口味$626262#国产sm$626262#中国主播$chinese_live_porn/#中文字幕$JAV_CHN.SUBs#有码破坏$Mosaic_Removed#MGS视频$MGS#国产成人$Asian_Amateur#欧美成人$Western_Porn#写真特级$Adult_IDOL#动画$Anime#巨乳$巨乳",
+                "分类url": "https://xn--ij-zz6c60yy3e.adfxcv-aekhfhiswe-bwavldojksdf.buzz/duoziyuan/yaowuwu/index.php/vod/type/id/{cateId}/page/{catePg}.html"
+            }
+        },
+        {
+            "key": "玉兔资源",
+            "name": "🔞玉兔资源(翻)",
+            "type": 1,
+            "api": "https://yutuzy3.com/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "橘猫资源",
+            "name": "🔞橘猫资源(翻)",
+            "type": 1,
+            "api": "https://to.to-long.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "色猫资源",
+            "name": "🔞色猫资源(翻)",
+            "type": 1,
+            "api": "https://caiji.semaozy.net/inc/apijson_vod.php/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.485
+            },
+            "categories": [
+                "国产自拍",
+                "日本无码",
+                "日本有码",
+                "中文字幕",
+                "欧美精品",
+                "成人动漫",
+                "日本素人",
+                "高清名优",
+                "三级伦理",
+                "网红主播",
+                "映画传媒",
+                "人妻熟女",
+                "口爆颜射",
+                "萝莉少女",
+                "SM调教",
+                "美乳巨乳",
+                "短视频",
+                "制服诱惑",
+                "女同性爱",
+                "AI换脸",
+                "多人群交",
+                "翹臀美尻",
+                "丝袜美腿",
+                "精选独家",
+                "貧乳小奶",
+                "探花系列"
+            ]
         }
     ],
     "lives": [

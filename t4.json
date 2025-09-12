@@ -32,30 +32,6 @@
             "changeable": 0
         },
         {
-            "key": "py_rou",
-            "name": "🔞(翻)Rou(T3)",
-            "type": 3,
-            "api": "https://d.kstore.dev/download/14756/python/vod_rou.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0
-        },
-        {
-            "key": "php_madou",
-            "name": "🔞麻豆(T4)",
-            "type": 4,
-            "api": "https://doubebly.doube.eu.org/madou.php",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.5
-            }
-        },
-        {
             "key": "py_BadNews",
             "name": "🔞BadNews(T4)",
             "type": 4,
@@ -80,6 +56,20 @@
             "changeable": 0
         },
         {
+            "key": "py_AiDou",
+            "name": "🔞AiDou(T4)",
+            "type": 4,
+            "api": "https://py.doube.eu.org/spider?site=AiDou",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.5
+            }
+        },
+        {
             "key": "py_MrJav",
             "name": "🔞MRJav(T4)",
             "type": 4,
@@ -94,10 +84,10 @@
             }
         },
         {
-            "key": "py_AiDou",
-            "name": "🔞AiDou(T4)",
+            "key": "php_madou",
+            "name": "🔞麻豆(T4)",
             "type": 4,
-            "api": "https://py.doube.eu.org/spider?site=AiDou",
+            "api": "https://doubebly.doube.eu.org/madou.php",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -106,6 +96,16 @@
                 "type": "rect",
                 "ratio": 1.5
             }
+        },
+        {
+            "key": "py_rou",
+            "name": "🔞(翻)Rou(T3)",
+            "type": 3,
+            "api": "https://d.kstore.dev/download/14756/python/vod_rou.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
         }
     ]
 }

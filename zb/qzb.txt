@@ -10,16 +10,6 @@ AV店使用区,#genre#
 正式奧世驚艷臺,http://ali.hlspull.yximgs.com:80/live/b1826704a11a573fcfdf60f13f048eb6.flv
 正式奧世香蕉臺,http://ali.hlspull.yximgs.com/live/4089411d85283286494977dd03bd911a.flv
 正式海外1,http://ali.hlspull.yximgs.com/live/4fd1fa19fbfef6b39664eacc5738c590.flv
-内部群开,https://kdy-oss.oss01-cn-lasa-xzns-d01-a.cloud.ningsuan.com.cn/kodbox/202411/25/5cXvZ_B0ZuQXQ?response-content-disposition=inline%3Bfilename%3Dbandicam%25202024-11-20%252010-28-27-454.mp4&response-content-type=video%2Fmp4&OSSAccessKeyId=FfDrPsUMS4h3sKnf&Expires=1732550399&Signature=t%2F09SujdHMED35ORiXexAInG7B4%3D
-入职20米,https://kdy-oss.oss01-cn-lasa-xzns-d01-a.cloud.ningsuan.com.cn/kodbox/202411/25/5cXvZ_B0ZuQXQ?response-content-disposition=inline%3Bfilename%3Dbandicam%25202024-11-20%252010-28-27-454.mp4&response-content-type=video%2Fmp4&OSSAccessKeyId=FfDrPsUMS4h3sKnf&Expires=1732550399&Signature=t%2F09SujdHMED35ORiXexAInG7B4%3D
-QQ3674994758,https://kdy-oss.oss01-cn-lasa-xzns-d01-a.cloud.ningsuan.com.cn/kodbox/202411/25/5cXvZ_B0ZuQXQ?response-content-disposition=inline%3Bfilename%3Dbandicam%25202024-11-20%252010-28-27-454.mp4&response-content-type=video%2Fmp4&OSSAccessKeyId=FfDrPsUMS4h3sKnf&Expires=1732550399&Signature=t%2F09SujdHMED35ORiXexAInG7B4%3D
-Q群853217978,https://kdy-oss.oss01-cn-lasa-xzns-d01-a.cloud.ningsuan.com.cn/kodbox/202411/25/5cXvZ_B0ZuQXQ?response-content-disposition=inline%3Bfilename%3Dbandicam%25202024-11-20%252010-28-27-454.mp4&response-content-type=video%2Fmp4&OSSAccessKeyId=FfDrPsUMS4h3sKnf&Expires=1732550399&Signature=t%2F09SujdHMED35ORiXexAInG7B4%3D
-不加入等免费,https://kdy-oss.oss01-cn-lasa-xzns-d01-a.cloud.ningsuan.com.cn/kodbox/202411/25/5cXvZ_B0ZuQXQ?response-content-disposition=inline%3Bfilename%3Dbandicam%25202024-11-20%252010-28-27-454.mp4&response-content-type=video%2Fmp4&OSSAccessKeyId=FfDrPsUMS4h3sKnf&Expires=1732550399&Signature=t%2F09SujdHMED35ORiXexAInG7B4%3D
-内部群开,http://zy.otioi.cn/live/mgjt.php?token=QQ群284268101=cctv1
-入职20米,http://zy.otioi.cn/live/mgjt.php?token=QQ群284268101=cctv1
-QQ3674994758,http://zy.otioi.cn/live/mgjt.php?token=QQ群284268101=cctv1
-Q群853217978,http://zy.otioi.cn/live/mgjt.php?token=QQ群284268101=cctv1
-不加入等免费,http://zy.otioi.cn/live/mgjt.php?token=QQ群284268101=cctv1
 全国电视区,#genre#QQ群284268101QQ群284268101QQ群284268101QQ群284268101
 CCTV1,http://8.138.90.107/公众号【睡眼迷离的猫】/migu.php?id=cctv1
 CCTV-2,http://8.138.90.107/公众号【睡眼迷离的猫】/migu.php?id=cctv2

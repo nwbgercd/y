@@ -2344,9 +2344,79 @@
     ],
     "lives": [
         {
+            "name": "大烩菜",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/dahuicai.txt"
+        },
+        {
+            "name": "电影",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/dy.txt"
+        },
+        {
+            "name": "时装秀",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/shizhuangxiu.txt"
+        },
+        {
+            "name": "歌曲MV",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/gqmv.txt"
+        },
+        {
+            "name": "KTV",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/KTV.txt"
+        },
+        {
             "name": "歌曲1",
             "type": 0,
             "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/gq1.txt"
+        },
+        {
+            "name": "歌曲2",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/gq2.txt"
+        },
+        {
+            "name": "歌曲3",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/gq3.txt"
+        },
+        {
+            "name": "歌曲4",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/gq4.txt"
+        },
+        {
+            "name": "歌曲5",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/gq5.txt"
+        },
+        {
+            "name": "歌曲6",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/gq6.txt"
+        },
+        {
+            "name": "歌曲7",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/gq8.txt"
+        },
+        {
+            "name": "歌曲9",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/gq9.txt"
+        },
+        {
+            "name": "歌曲1",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/gq1.txt"
+        },
+        {
+            "name": "午夜",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/0.txt"
         },
         {
             "name": "午夜",

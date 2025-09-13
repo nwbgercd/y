@@ -2349,6 +2349,11 @@
             "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/dahuicai.txt"
         },
         {
+            "name": "有效源",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/youxiao.txt"
+        },
+        {
             "name": "电影",
             "type": 0,
             "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/dy.txt"

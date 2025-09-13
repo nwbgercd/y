@@ -12,13 +12,21 @@
             "ext": "./lib/tokenm.json$$$./lib/douban.json"
         },
         {
-            "key": "test",
-            "name": "🔞jubaba2",
+            "key": "py",
+            "name": "🔞py",
             "type": 3,
-            "api": "./py/jubaba2.py",
+            "api": "./py/py.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "json",
+            "name": "🔞线上看女优(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/线.json"
         },
         {
             "key": "Local",
@@ -768,6 +776,14 @@
             "changeable": 1,
             "filterable": 1,
             "timeout": 60
+        },
+        {
+            "key": "线上看女优",
+            "name": "🔞线上看女优(翻)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/线上看女优.json"
         },
         {
             "key": "Xojav",
@@ -1882,14 +1898,24 @@
             "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/0.txt"
         },
         {
-            "name": "午夜",
+            "name": "武打片",
             "type": 0,
-            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/0.txt"
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/wudapian.txt"
+        },
+        {
+            "name": "日日泰勒",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/riritaylor.m3u"
         },
         {
             "name": "松视",
             "type": 0,
             "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/178.txt"
+        },
+        {
+            "name": "adultiptv",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/nwbgercd/y/refs/heads/main/zb/adultiptv.m3u"
         },
         {
             "name": "18接口",

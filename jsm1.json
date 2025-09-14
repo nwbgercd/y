@@ -152,6 +152,15 @@
             "filterable": 1
         },
         {
+            "key": "py模板",
+            "name": "py模板",
+            "type": 3,
+            "api": "./py/影视工厂.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "永乐视频",
             "name": "永乐视频",
             "type": 3,

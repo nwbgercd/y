@@ -13,7 +13,7 @@
         },
         {
             "key": "py模板",
-            "name": "🔞py模板",
+            "name": "py模板",
             "type": 3,
             "api": "./py/模板.py",
             "searchable": 1,
@@ -22,7 +22,7 @@
         },
         {
             "key": "json模板",
-            "name": "🔞json模板",
+            "name": "json模板",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,

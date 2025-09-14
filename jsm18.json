@@ -12,17 +12,17 @@
             "ext": "./lib/tokenm.json$$$./lib/douban.json"
         },
         {
-            "key": "py",
-            "name": "🔞Avple.tv",
+            "key": "py模板",
+            "name": "🔞py模板",
             "type": 3,
-            "api": "./py/Avple.tv.py",
+            "api": "./py/模板.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
         {
-            "key": "凉",
-            "name": "🔞凉快",
+            "key": "json模板",
+            "name": "🔞json模板",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
@@ -30,15 +30,7 @@
             "changeable": 1,
             "api": "csp_XBPQ",
             "jar": "./jar/XBPQ.jar",
-            "ext": "./json/凉快女生.json"
-        },
-        {
-            "key": "json",
-            "name": "🔞线上(翻)",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/凉生.json"
+            "ext": "./json/模板.json"
         },
         {
             "key": "Local",
@@ -2269,6 +2261,15 @@
                 "type": "rect",
                 "ratio": 1.8
             }
+        },
+        {
+            "key": "javxbb",
+            "name": "🔞javxbb(翻)",
+            "type": 3,
+            "api": "./py/javxbb.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "吃瓜",

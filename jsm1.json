@@ -12,13 +12,25 @@
             "ext": "./lib/tokenm.json$$$./lib/douban.json"
         },
         {
-            "key": "py",
-            "name": "🔞永乐视频",
+            "key": "py模板",
+            "name": "🔞py模板",
             "type": 3,
-            "api": "./py/永乐视频.py",
+            "api": "./py/模板.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "json模板",
+            "name": "🔞json模板",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/模板.json"
         },
         {
             "key": "Local",
@@ -135,6 +147,15 @@
             "name": "4K影院",
             "type": 3,
             "api": "./py/4K影院.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "永乐视频",
+            "name": "永乐视频",
+            "type": 3,
+            "api": "./py/永乐视频.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1

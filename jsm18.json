@@ -12,6 +12,23 @@
             "ext": "./lib/tokenm.json$$$./lib/douban.json"
         },
         {
+            "key": "红衣服",
+            "name": "🔞Emby onyra",
+            "type": 3,
+            "api": "./py/emby_proxy.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "server": "https://youtube.com:443",
+                "username": "diaomao",
+                "password": "R5kko7Ab",
+                "thread": 0,
+                "proxy": "http://127.0.0.1:10172"
+            },
+            "changeable": 1
+        },
+        {
             "key": "py模板",
             "name": "🔞py模板",
             "type": 3,
@@ -30,7 +47,7 @@
             "changeable": 1,
             "api": "csp_XBPQ",
             "jar": "./jar/XBPQ.jar",
-            "ext": "./json/模板.json"
+            "ext": "./json/小淫棍.json"
         },
         {
             "key": "Local",
@@ -813,6 +830,18 @@
             "api": "https://www.pgxdy.com/api/xml.php",
             "searchable": 0,
             "quickSearch": 0
+        },
+        {
+            "key": "无码抖音",
+            "name": "🔞无码抖音",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/无码抖音.json"
         },
         {
             "key": "五马抖音",
@@ -1870,7 +1899,7 @@
             "filterable": 0
         },
         {
-            "key": "色优酷AV",
+            "key": "色优酷AV1",
             "name": "🔞优酷AV(翻)",
             "type": 3,
             "api": "csp_XBPQ",
@@ -1884,6 +1913,42 @@
                 "分类url": "https://youku.syk8.fun/youku/vod/type/id/{cateId}/page/{catePg}.html;;z",
                 "分类": "国产视频$1#网曝泄密$2#日本无码$3#日本有码$4#无码中字$5#有码中字$6#欧美视频$7#色情动漫$8"
             }
+        },
+        {
+            "key": "色优酷AV",
+            "name": "🔞色优酷AV(翻)",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/色优酷AV.json"
+        },
+        {
+            "key": "一茎深",
+            "name": "🔞一茎深(翻)",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/一茎深.json"
+        },
+        {
+            "key": "YY色播",
+            "name": "🔞YY色播(翻)",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/YY色播.json"
         },
         {
             "key": "天天动漫",

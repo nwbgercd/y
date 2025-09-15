@@ -1927,18 +1927,6 @@
             "ext": "./json/色优酷AV.json"
         },
         {
-            "key": "一茎深",
-            "name": "🔞一茎深(翻)",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/一茎深.json"
-        },
-        {
             "key": "YY色播",
             "name": "🔞YY色播(翻)",
             "type": 3,

@@ -498,6 +498,65 @@
             }
         },
         {
+            "key": "owoav",
+            "name": "🔞OWOAV",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./jar/XYQ.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./json/owoav.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6
+            }
+        },
+        {
+            "key": "csp_XBPQ_癢癢",
+            "name": "🔞癢癢",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "filterable": 1,
+            "ext": {
+                "分类url": "https://guochan.yangyangtv13.top/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+                "直接播放": "1",
+                "图片": "data-original=\"&&\"",
+                "分类": "自拍偷拍$58#绿帽淫妻$59#国产视频$51#主播大秀$52#抖阴视频$41#网红头条$37#网曝黑料$36#AI换脸$32#女优明星$53#日本无码$39#中文字幕$40#日本有码$38#葫芦影业$48#蜜桃传媒$49#杏吧传媒$50#天美传媒$44"
+            }
+        },
+        {
+            "key": "日日撸",
+            "name": "🔞日日撸",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./jar/XYQ.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./json/日日撸.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6
+            }
+        },
+        {
+            "key": "鲨鱼av",
+            "name": "🔞鲨鱼av",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "./jar/XYQ.jar",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "./json/鲨鱼av.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6
+            }
+        },
+        {
             "key": "bika",
             "name": "🔞比卡",
             "type": 3,

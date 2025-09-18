@@ -618,19 +618,6 @@
             "ext": "./json/花都影视.json"
         },
         {
-            "key": "花都影视2",
-            "name": "🔞花都影视2",
-            "type": 3,
-            "jar": "./jar/XBPQ.jar",
-            "api": "csp_XBPQ",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "分类url": "https://cn.huaduys.org/;;!",
-                "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
-            }
-        },
-        {
             "key": "女优走光",
             "name": "🔞女优走光",
             "type": 3,
@@ -1431,6 +1418,27 @@
             }
         },
         {
+            "key": "香蕉",
+            "name": "🔞香蕉",
+            "type": 3,
+            "api": "./py/香蕉.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "91速播",
+            "name": "🔞91速播",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/91速播.json"
+        },
+        {
             "key": "BtSow",
             "name": "🔞BtSow磁力",
             "type": 3,
@@ -1463,6 +1471,15 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/insta直播.json"
+        },
+        {
+            "key": "4K数毛",
+            "name": "🔞4K数毛(翻)",
+            "type": 3,
+            "api": "./py/4K数毛.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "404xav",

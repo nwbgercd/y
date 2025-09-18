@@ -2320,6 +2320,15 @@
                 "分类url": "https://www.2kdm.vip/search.php?page={catePg}&searchtype=5&tid={cateId}&year={year}",
                 "分类": "国产动漫$2#日本动漫$1#欧美动漫$3#动漫电影$4"
             }
+        },
+        {
+            "key": "redflix",
+            "name": "🔞redflix(翻)",
+            "type": 3,
+            "api": "./py/redflix.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         }
     ],
     "lives": [

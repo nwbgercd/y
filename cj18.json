@@ -2,6 +2,19 @@
     "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
     "sites": [
         {
+            "key": "花都影视",
+            "name": "🔞花都影视",
+            "type": 3,
+            "jar": "./XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "分类url": "https://cn.huaduys.org/;;!",
+                "简介": "🍁凯少爷🍁水印广告勿信，谨防诈骗🍁"
+            }
+        },
+        {
             "key": "91md",
             "name": "🔞台湾传媒①",
             "type": 1,

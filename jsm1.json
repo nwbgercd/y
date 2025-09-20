@@ -15,7 +15,7 @@
             "key": "py模板",
             "name": "py模板",
             "type": 3,
-            "api": "./py/模板.py",
+            "api": "./py/py模板.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -134,6 +134,54 @@
             "filterable": 1
         },
         {
+            "key": "荐片影视",
+            "name": "荐片影视",
+            "type": 3,
+            "api": "./py/贱片.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "魅影视频",
+            "name": "魅影视频",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/魅影视频.json"
+        },
+        {
+            "key": "界影视",
+            "name": "界影视",
+            "type": 3,
+            "api": "./py/界影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "4kvm",
+            "name": "4kvm",
+            "type": 3,
+            "api": "./py/4kvm.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "actor",
+            "name": "actor",
+            "type": 3,
+            "api": "./py/actor.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "4KAV",
             "name": "4KAV",
             "type": 3,
@@ -152,8 +200,8 @@
             "filterable": 1
         },
         {
-            "key": "py模板",
-            "name": "py模板",
+            "key": "影视工厂",
+            "name": "影视工厂",
             "type": 3,
             "api": "./py/影视工厂.py",
             "searchable": 1,
@@ -2343,11 +2391,6 @@
             "url": "https://down.nigx.cn/raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1"
         },
         {
-            "name": "有效源",
-            "type": 0,
-            "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/youxiao.txt"
-        },
-        {
             "name": "电影",
             "type": 0,
             "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/dy.txt"
@@ -2356,11 +2399,6 @@
             "name": "时装秀",
             "type": 0,
             "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/shizhuangxiu.txt"
-        },
-        {
-            "name": "歌曲MV",
-            "type": 0,
-            "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/gqmv.txt"
         },
         {
             "name": "KTV",

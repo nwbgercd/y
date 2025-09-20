@@ -13,16 +13,16 @@
         },
         {
             "key": "py模板",
-            "name": "🔞py模板",
+            "name": "🔞py模板(翻)",
             "type": 3,
-            "api": "./py/模板.py",
+            "api": "./py/ru.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
         {
-            "key": "json模板",
-            "name": "🔞json模板",
+            "key": "模板",
+            "name": "🔞模板(翻)",
             "type": 3,
             "searchable": 1,
             "quickSearch": 1,
@@ -1482,6 +1482,15 @@
             "filterable": 1
         },
         {
+            "key": "肉视频",
+            "name": "🔞肉视频(翻)",
+            "type": 3,
+            "api": "./py/rou.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "404xav",
             "name": "🔞404xav(翻)",
             "type": 3,
@@ -1900,6 +1909,18 @@
         {
             "key": "18j.tv",
             "name": "🔞18j.tv(翻)",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/18j.tv.json"
+        },
+        {
+            "key": "18j.tv1",
+            "name": "🔞18j.tv1(翻)",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./lib/XBPQ.jar",

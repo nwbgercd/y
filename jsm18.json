@@ -1473,15 +1473,6 @@
             "ext": "./json/insta直播.json"
         },
         {
-            "key": "4K数毛",
-            "name": "🔞4K数毛(翻)",
-            "type": 3,
-            "api": "./py/4K数毛.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "肉视频",
             "name": "🔞肉视频(翻)",
             "type": 3,
@@ -1909,18 +1900,6 @@
         {
             "key": "18j.tv",
             "name": "🔞18j.tv(翻)",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "api": "csp_XBPQ",
-            "jar": "./jar/XBPQ.jar",
-            "ext": "./json/18j.tv.json"
-        },
-        {
-            "key": "18j.tv1",
-            "name": "🔞18j.tv1(翻)",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "./lib/XBPQ.jar",
@@ -3507,14 +3486,34 @@
             "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/wudapian.txt"
         },
         {
+            "name": "福利院",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/fly.txt"
+        },
+        {
+            "name": "Playboy93",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/Playboy93.txt"
+        },
+        {
+            "name": "韩国女主播",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/hanguo.txt"
+        },
+        {
+            "name": "全球精品",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/qqjp.txt"
+        },
+        {
+            "name": "91麻豆",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/91md.txt"
+        },
+        {
             "name": "日日泰勒",
             "type": 0,
             "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/riritaylor.m3u"
-        },
-        {
-            "name": "松视",
-            "type": 0,
-            "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/178.txt"
         },
         {
             "name": "adultiptv",
@@ -3545,6 +3544,11 @@
             "name": "Adult",
             "type": 0,
             "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/Adult.m3u"
+        },
+        {
+            "name": "五马抖音",
+            "type": 0,
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/testnmb/ys/refs/heads/main/zb/wmdy.txt"
         },
         {
             "name": "黄色仓库全站",
